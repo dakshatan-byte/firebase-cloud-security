@@ -41,7 +41,8 @@ The remediation enforces that only authenticated users can read or write data. T
 To enhance portability and simulate a real DevSecOps environment, the detection engine is containerized using Docker. This means the scanner can be run on any machine regardless of the underlying operating system or Python environment, making it suitable for CI/CD pipelines and automated security audits.
 
 📊 Results Summary
-ScenarioAccessRisk ScoreBefore FixData fully exposed70 / 100After FixAccess completely denied 20/100
+Before Fix -> Data fully exposed -> 70/100
+After Fix -> Access completely denied 20/100
 
 📚 References
 
